@@ -27,7 +27,15 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
-    // Método para obtener el estado actual de la cuenta
+    
+    /**
+     * Devuelve el saldo actual de la cuenta.
+     *
+     * Este método obtiene el saldo disponible en la cuenta de la persona titular.
+     * No realiza ninguna modificación en el saldo, solo lo devuelve.
+     *
+     * @return El saldo actual de la cuenta.
+     */
     public double estado() {
         return this.saldo;
     }
